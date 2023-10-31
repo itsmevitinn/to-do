@@ -56,7 +56,7 @@ export function Task({ task, setTasks }: Props) {
           {task.description}
         </Text>
         <TouchableOpacity onPress={handleRemoveTask}>
-          <Image source={require("../../../assets/trash.png")} />
+          <Image source={require("../../assets/images/trash.png")} />
         </TouchableOpacity>
       </View>
     </View>

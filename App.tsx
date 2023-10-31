@@ -6,8 +6,8 @@ import { useCallback } from "react";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    "Inter-Regular": require("./assets/fonts/Inter-Regular.ttf"),
-    "Inter-Bold": require("./assets/fonts/Inter-Bold.ttf"),
+    "Inter-Regular": require("./src/assets/fonts/Inter-Regular.ttf"),
+    "Inter-Bold": require("./src/assets/fonts/Inter-Bold.ttf"),
   });
 
   const onLayoutRootView = useCallback(async () => {

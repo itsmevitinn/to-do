@@ -39,7 +39,10 @@ export function CreateTask({ setTasks }: Props) {
         style={styles.button}
         onPress={() => handleTaskAdd(description)}
       >
-        <Image alt="Plus icon" source={require("../../../assets/plus.png")} />
+        <Image
+          alt="Plus icon"
+          source={require("../../assets/images/plus.png")}
+        />
       </TouchableOpacity>
     </View>
   );
