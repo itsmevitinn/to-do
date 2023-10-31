@@ -6,8 +6,7 @@ export const styles = StyleSheet.create({
   },
   text: {
     fontSize: 14,
-    lineHeight: (140 / 100) * 14,
-    fontWeight: "bold",
+    fontFamily: "Inter-Bold",
   },
   numberView: {
     backgroundColor: "#333333",
@@ -19,7 +18,6 @@ export const styles = StyleSheet.create({
   numberText: {
     color: "#D9D9D9",
     fontSize: 12,
-    lineHeight: (140 / 100) * 12,
-    fontWeight: "bold",
+    fontFamily: "Inter-Bold",
   },
 });

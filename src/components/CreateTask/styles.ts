@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
     padding: 16,
     fontSize: 16,
     lineHeight: (140 / 100) * 16,
+    fontFamily: "Inter-Regular",
     color: "#F2F2F2",
     borderWidth: 1,
     borderColor: "#0D0D0D",

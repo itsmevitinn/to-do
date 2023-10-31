@@ -12,14 +12,14 @@ export const styles = StyleSheet.create({
   title: {
     marginTop: 16,
     color: "#808080",
-    fontWeight: "bold",
-    fontFamily: "Inter-Regular",
     fontSize: 14,
     lineHeight: (140 / 100) * 14,
+    fontFamily: "Inter-Bold",
   },
   description: {
     color: "#808080",
     fontSize: 14,
     lineHeight: (140 / 100) * 14,
+    fontFamily: "Inter-Regular",
   },
 });

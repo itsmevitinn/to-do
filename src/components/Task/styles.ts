@@ -18,11 +18,11 @@ export const styles = StyleSheet.create({
     paddingVertical: 12,
     alignItems: "center",
   },
-  checkBox: {},
   description: {
     color: "#F2F2F2",
     fontSize: 14,
     lineHeight: (140 / 100) * 14,
+    fontFamily: "Inter-Regular",
     flex: 1,
     marginHorizontal: 8,
   },
