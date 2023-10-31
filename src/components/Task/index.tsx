@@ -41,7 +41,6 @@ export function Task({ task, setTasks }: Props) {
       <View style={styles.content}>
         <BouncyCheckbox
           onPress={(isChecked) => handleTaskChecked(isChecked)}
-          style={styles.checkBox}
           size={18}
           fillColor="#5E60CE"
         />

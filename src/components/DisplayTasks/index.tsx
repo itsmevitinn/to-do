@@ -2,7 +2,6 @@ import { styles } from "./styles";
 import { FlatList, View } from "react-native";
 import { Counter } from "../Counter";
 import { EmptyComponent } from "../EmptyComponent";
-import { useState } from "react";
 import { Task } from "../Task";
 import { TaskType } from "../../types/task";
 
@@ -23,7 +22,7 @@ export function DisplayTasks({ tasks, setTasks }: Props) {
         />
       </View>
       <FlatList
-        style={{ marginBottom: 32 }}
+        style={{ marginBottom: 8 }}
         data={tasks}
         ListEmptyComponent={EmptyComponent}
         showsVerticalScrollIndicator={false}
