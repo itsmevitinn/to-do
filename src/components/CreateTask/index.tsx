@@ -3,6 +3,7 @@ import { View, TextInput, TouchableOpacity, Image } from "react-native";
 import { useState } from "react";
 import { Alert } from "react-native";
 import { TaskType } from "../../types/task";
+import uuid from "uuid";
 
 type Props = {
   setTasks: React.Dispatch<React.SetStateAction<TaskType[]>>;
@@ -17,8 +18,8 @@ export function CreateTask({ setTasks }: Props) {
       return Alert.alert("You can't add an empty task!");
     }
     setTasks((prevTasks) => [
+      { id: uuid.v4(), description: description, done: false },
       ...prevTasks,
-      { id: prevTasks.length, description: description, done: false },
     ]);
     setDescription("");
   }
