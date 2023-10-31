@@ -78,7 +78,7 @@ npx expo start --ios
 # For physical device
 npx expo start
 ```
-(Physical devices only) scan the QR code displayed in the terminal with Expo Go (Android) or the Camera app (iOS)
+> ***Physical devices only*** -> scan the QR code displayed in the terminal with Expo Go (Android) or the Camera app (iOS)
 
 ## 📝 Licença
 
