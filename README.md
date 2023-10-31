@@ -8,7 +8,7 @@
 
 <p align="center">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/itsmevitinn/to-do">
-  <img alt="GitHub" src="https://img.shields.io/github/license/itsmevitinn/to-do">
+  <img alt="GitHub" src="https://img.shields.io/github/license/itsmevitinn/to-do?v=1">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/itsmevitinn/to-do">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/itsmevitinn/to-do?style=social">
 </p>
