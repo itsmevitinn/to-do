@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <strong>Aplicativo web de todo list.</strong>
+    <strong>Aplicativo mobile de todo list.</strong>
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@ npx expo start
 ## 📝 Licença
 
 <a href="https://opensource.org/licenses/MIT">
-    <img alt="GitHub" src="https://img.shields.io/github/license/itsmevitinn/to-do">
+    <img alt="GitHub" src="https://img.shields.io/github/license/itsmevitinn/to-do?v=1">
 </a>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
