@@ -22,9 +22,6 @@
  <a href="#-licença">Licença</a>
 </p>
 
-<h4 align="center"> 
-	🚧  Projeto concluído 🚀 🚧
-</h4>
 
 ## 💻 Sobre o projeto
 
